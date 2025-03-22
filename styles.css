@@ -77,3 +77,19 @@ button:hover {
   margin-top: 0.25rem;
   display: none;
 }
+
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  min-height: 100px;
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
